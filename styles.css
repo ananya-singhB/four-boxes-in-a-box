@@ -1,0 +1,40 @@
+.outer-div {
+  border: 6px solid green;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.left-header,
+.left-footer {
+  border: 6px solid red;
+  height: 10vh;
+  width: 15vw;
+}
+
+.right-header {
+  border: 6px solid red;
+  height: 10vh;
+  width: 15vw;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.right-footer {
+  border: 6px solid red;
+  height: 10vh;
+  width: 15vw;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
